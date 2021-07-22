@@ -224,7 +224,7 @@ public class covidModel {
         model.setListeners(new ScoreIterationListener(10));
 
         // save model
-        String folder = "D:\\covidApp\\src\\main\\resources";
+        String folder = "E:\2021\covid19Diagnosis\src\main\resources";
         File locationToSave = new File(folder,"/trained_covid_model.zip");
         boolean saveUpdater = true;
         ModelSerializer.writeModel(model,locationToSave,saveUpdater);
