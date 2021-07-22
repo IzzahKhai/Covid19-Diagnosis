@@ -7,11 +7,11 @@ This project develops a model that can diagnose covid-19 based on chest x-ray th
 This project has been done using deeplearning4j (DL4J) framework in java on Windows 10 operating system. There are a few steps that need to be done before starting  the project.
 
 1) Install Java
-Download Java JDK. (Use Java 8 for full support of DL4J operations)
+  - Download Java JDK. (Use Java 8 for full support of DL4J operations)
 
-If you have already installed Java, you can check the version that have been installed on your machine by using command prompt
-  a) Open the command prompt by pressing the windows button then type  ‘cmd’ and press ‘Enter’.
-  b) On command prompt type ‘java -version’. (Make sure that 64-bit version of Java is installed)
+  - If you have already installed Java, you can check the version that have been installed on your machine by using command prompt
+      - Open the command prompt by pressing the windows button then type  ‘cmd’ and press ‘Enter’.
+      - On command prompt type ‘java -version’. (Make sure that 64-bit version of Java is installed)
 
 2) Install IntelliJ IDEA Community Edition
 Download and install IntelliJ IDEA.
