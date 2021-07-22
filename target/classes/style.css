@@ -1,0 +1,44 @@
+{
+    blue-dark-indigo: #383E56;
+    skymind-red-pastel: #E36387;
+}
+@font-face{
+    font-family: "Timeline";
+    src: url("Timeline.ttf");
+}
+.root{
+    -fx-background-color: blue-dark-indigo;
+}
+#menubar-style{
+    -fx-text-fill: #FFFFFF;
+    -fx-color: #FFFFFF;
+    -fx-background-color: #A6B1E1;
+}
+#label-app{
+    -fx-text-fill: #FFFFFF;
+    -fx-background-radius: 3;
+    -fx-font-family: 'Timeline';
+    -fx-font-size: 30 px;
+    -fx-alignment: center;
+}
+#desc-label{
+    -fx-font-family: 'Comic Sans MS';
+    -fx-font-size: 12 px;
+    -fx-alignment: bottom-left;
+}
+#btm-label{
+    -fx-font-family: 'Timeline';
+    -fx-text-fill: #FFFFFF;
+    -fx-font-size: 15 px;
+
+    -fx-alignment: center;
+}
+#pane{
+    -fx-padding:10;
+    -fx-border-radius:5;
+    //-fx-border-color:white;
+}
+#img-view{
+    -fx-border-radius:50;
+    -fx-border-color: black;
+}
